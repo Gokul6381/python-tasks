@@ -11,6 +11,8 @@ def local():
     rupee=20
     expence=rupee*km
     print("expence :",expence)
+    print(f""" Your Taxi booked successfully
+          our driver contact on {date}""")
 def long():
     print("Rupees 30 for more then 40 kilometers")
     print("Pickup Location :",pickup)
@@ -19,6 +21,8 @@ def long():
     rupee=30
     expence=rupee*km
     print("expence :",expence)
+    print(f""" Your Taxi booked successfully
+          our driver contact on {date}""")
 def enq():
     print("""          Trip Expence
           
@@ -33,9 +37,8 @@ def enq():
         print("Wrong Answer")
 
 def exit():
-    print(f"""Thanks for your visit 
-          Your Taxi booked successfully
-          our driver contact on {date}""")
+    print("""Thanks for your visit 
+         """)
 
 
 print(""" 
